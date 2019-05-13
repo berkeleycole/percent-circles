@@ -1,2 +1,4 @@
 # percent-circles
-Stylized percent markers with circular border that reflects the percentage shown
+Markup to create stylized percent markers with circular border that reflects the percentage shown
+
+

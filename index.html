@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Experiment with percentage borders</title>
+    </head>
+    <body>
+        <section id="technology">
+            <h3 class="mb-3 center white">The Technology</h3>
+            <ul>
+                <!-- Loop over your percents. TEST: 70% -->
+                <li>
+                    <div class="percent-icon" style="">
+                        <!-- NOTE** haven't testing this JS, was using another template language, but this is the math -->
+                        <script>
+                            var rotation = .5 * (1 - (70/100))
+                            getElementById('percent-overlay').style.transform = rotate(rotation + "turn")
+                        </script>
+
+                        <div class="percent-overlay" id="percent-overlay"></div>
+                        <p class="purple percentage">70%</p>
+                    </div>
+                    <div class="caption">
+                        <img src="#" alt="">
+                        <p class="white">your text</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+.infographics-content section#technology li {
+    margin-bottom: 50px;
+}
+
+.infographics-content section#technology .percent-icon {
+    align-items: center;
+    background: rgb(111, 141, 40 );
+    background-image: linear-gradient(to right, transparent 50%, rgb(149, 213, 3) 0);
+    border-radius: 50%;
+    display: flex;
+    height: 220px;
+    justify-content: center;
+    margin: 0 auto 25px auto;
+    position: relative;
+    width: 220px;
+    z-index: 0;
+}
+
+.infographics-content section#technology .percent-overlay {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 100% 100% 0 / 50%;
+    background-color: rgb(149, 213, 3);
+    transform-origin: left;
+    z-index: 1;
+}
+
+.infographics-content section#technology .percent-icon p {
+    align-items: center;
+    background: #FFFFFF;
+    border: 8px solid rgb(41, 13, 83);
+    border-radius: 50%;
+    display: flex;
+    font-size: 60px;
+    height: 200px;
+    justify-content: center;
+    position: relative;
+    width: 200px;
+    z-index: 20;
+}
+
+/* -------------------   DESKTOP TECHNOLOGY STYLES */
+@media only screen and (min-width: 769px) {
+    .infographics-content section#technology ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1100px;
+    }
+
+    .infographics-content section#technology ul li {
+        align-items: center;
+        display: flex;
+        min-width: 350px;
+        width: 550px;
+    }
+
+    .infographics-content section#technology .percent-icon {
+        margin-right: 30px;
+    }
+
+    .infographics-content section#technology .caption {
+        max-width: 280px;
+    }
+}
